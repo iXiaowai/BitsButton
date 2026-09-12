@@ -3,7 +3,9 @@
 <p align="center">
   面向嵌入式系统的轻量级按键检测组件
 </p>
-
+<p align="center">
+  项目来源开源，<a href="https://github.com/530china/BitsButton">原项目链接</a>。为了方便后续移植，当前已经过裁剪。
+</p>
 ---
 
 ## 一、简介 👋
@@ -37,7 +39,7 @@ BitsButton/
 ├── docs/
 │   ├── porting.md             # 移植说明
 │   └── usage.md               # 使用说明
-├── README.md
+├── README.md                  # 本文件
 ├── LICENSE
 ├── .gitignore
 └── .gitattributes
@@ -60,7 +62,7 @@ include/bits_button.h
 src/bits_button.c
 ```
 
-因此可以直接加入现有嵌入式工程中使用。
+因此可以直接加入现有工程中使用。
 
 ---
 
