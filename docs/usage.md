@@ -905,7 +905,7 @@ test_state_machine_edge.c
 test_performance.c
 ```
 
-这些 `cases` 是验证代码行为的参考，而不是 BitsButton 运行时必须依赖的组件。
+这些 `cases` 是移植时验证按键功能的参考用例，不是 BitsButton 运行时必须依赖的组件。仓库不包含电脑端测试框架；实际使用时需根据目标嵌入式平台的工程和测试环境适配这些用例。
 
 ---
 
